@@ -23,3 +23,13 @@ If no height is specified, then scrollbar will be added and all the content will
 if the flex wrap is set to wrap-reverse, then the axis will be from bottom to top and left to right.
 
 
+Flexbox Ordering:
+flex: 1 => distributes all the available width to the items evenly
+
+by default order is set to 0
+order specifies the order in which the content will be displayed
+If order is positive then all the selectors that have order will be in the last with higher order as the rightmost
+if order is negative then it starts from left most.
+
+Using the order property will create a disconnect between the visual presentation of content and DOM order.
+
