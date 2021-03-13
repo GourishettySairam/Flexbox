@@ -24,7 +24,7 @@ if the flex wrap is set to wrap-reverse, then the axis will be from bottom to to
 
 
 Flexbox Ordering:
-flex: 1 => distributes all the available width to the items evenly
+flex: 1 => distributes all the available width to the all items evenly
 
 by default order is set to 0
 order specifies the order in which the content will be displayed
@@ -32,4 +32,15 @@ If order is positive then all the selectors that have order will be in the last 
 if order is negative then it starts from left most.
 
 Using the order property will create a disconnect between the visual presentation of content and DOM order.
+
+Justify Content: 
+how items are aligned on main axis.
+
+justify-content: flex-start | flex-end | center | space-between | space-around;
+
+flex-start: content is aligned on x axis from left to right with starting point on left y axis.
+flex-end: content is aligned on x axis from left to right with end point on right y axis.
+center: content is aligned with equal space on left and right sides
+space-between: first and last content are towards left and right end with no space. and the remaining content is arranged in the middle with equal spacing betweent the remaining items
+space-around: first and last contents now has space between the margin and the content.
 
