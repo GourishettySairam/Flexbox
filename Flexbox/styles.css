@@ -1,6 +1,6 @@
 .box {
     color: white;
-    font-size: 20px;
+    font-size: 100px;
     text-align: center;
     text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
     padding: 10px;
@@ -37,11 +37,37 @@
     background: #16a085;
 }
 
+/* .container {
+    display: flex;
+    border: 10px solid mistyrose; 
+    align-items: flex-end;
+    height: 100vh;
+} */
+
 .container {
     display: flex;
-    justify-content: space-around;
     border: 10px solid mistyrose; 
+    align-items: baseline;
+    height: 100vh;
     flex-direction: column;
-    min-height: 100vh;
 }
 
+.box1 {
+    font-size: 30px;
+}
+
+.box3 {
+    font-size: 150px;
+}
+
+.box4 {
+    font-size: 200px;
+}
+
+.box5 {
+    font-size: 10px;
+}
+
+.box10 {
+    font-size: 77px;
+}

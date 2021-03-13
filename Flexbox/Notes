@@ -44,3 +44,17 @@ center: content is aligned with equal space on left and right sides
 space-between: first and last content are towards left and right end with no space. and the remaining content is arranged in the middle with equal spacing betweent the remaining items
 space-around: first and last contents now has space between the margin and the content.
 
+Aligning and Centering with align-items:
+align-items: center | stretch | flex-start | flex-end | baseline;
+concerned with cross-axis.
+
+Default value is stretch. means content will span from top to bottom.
+
+If the direction is not mentioned, and align items is center, then there is no effect. This is because by default the direction is row and the height is equal to the height of content.
+if we specify the height, then items will be vertically centered with in that height.
+baseline: looks at the text in every item and make sures that it is aligned properly. the base of content on all items will be on same base.
+if the direction is column, and baseline is applied, then the content in all items will be based on left y axis.
+
+
+
+
