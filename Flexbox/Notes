@@ -1,8 +1,25 @@
 display: flex | inline-flex
 flex occupies the entire width
 flex-inline wraps according to the content width
+flex stretches the content according to the container's height unless the height is specified.
 
 flex-direction: row | row-reverse | column | column-reverse
 By default it is row and main axis is left to right
 if we specify as column then the main axis is from top to bottom
+
+Wrapping Elements with flexbox:
+flex-wrap: nowrap | wrap | wrap-reverse
+Normally if we specify the width then if the content is more than width then a scrollbar is added by default.
+flex-wrap is a property that we put on the flex container but not on flex item
+By default flex-wrap is set to nowrap
+
+if flex-wrap is set to wrap and flex-direction is set to row, then if content exceeds the specified / availble width then scrollbar will not be added,
+instead the content will span across multiple rows
+
+if the flex-wrap is set to wrap and flex-direction is set to column, then the content will go until the specified width , then
+any extra content will be added as a separate column.
+If no height is specified, then scrollbar will be added and all the content will be in the single column.
+
+if the flex wrap is set to wrap-reverse, then the axis will be from bottom to top and left to right.
+
 

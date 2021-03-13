@@ -40,6 +40,12 @@
 .container {
     display: flex;
     border: 10px solid goldenrod;
-    min-height: 100vh;
-    flex-direction: row;  
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;  
+}
+
+.box {
+    width: calc(33.33%-20px);
+    margin: 10px;
 }
