@@ -1,0 +1,8 @@
+display: flex | inline-flex
+flex occupies the entire width
+flex-inline wraps according to the content width
+
+flex-direction: row | row-reverse | column | column-reverse
+By default it is row and main axis is left to right
+if we specify as column then the main axis is from top to bottom
+
