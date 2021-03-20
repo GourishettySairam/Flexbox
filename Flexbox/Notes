@@ -63,3 +63,11 @@ align-content: space-between => takes the extra space on the cross axis and dist
 align-content : center => items are aligned in middle of cross axis with equal space on top and botton.
 
 1st we need to wrap the content. then only the align and justify content effects take place.
+
+
+Alignment and Centering with align-self:
+for align-items we need not specify the flex-wrap property. for align-content we need to compulsorily set the flex-wrap property.
+align-self: flex-start | flex-end | center | baseline
+
+align-self is applies only to the item in which it is specified.
+it does not effect other items.
