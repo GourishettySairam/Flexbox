@@ -56,5 +56,10 @@ baseline: looks at the text in every item and make sures that it is aligned prop
 if the direction is column, and baseline is applied, then the content in all items will be based on left y axis.
 
 
+Aligning and Centering with align content:
+align-content: flex-start | flex-end | center | space-between | space-around
+justify-content: space-between => takes the extra space on the main axis and distributes it evenly among the items.
+align-content: space-between => takes the extra space on the cross axis and distributes it equally among items.
+align-content : center => items are aligned in middle of cross axis with equal space on top and botton.
 
-
+1st we need to wrap the content. then only the align and justify content effects take place.
