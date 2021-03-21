@@ -73,10 +73,29 @@ align-self is applies only to the item in which it is specified.
 it does not effect other items.
 
 Understanding Flexbox sizing with the flex property:
-This applies to individual flex items.
+This applies to individual flex items. when you have extra space how much 
 flex: 1 => we applied flex:1 to all items. If there is any additional space then they adjust themselves to fit in the width available.
 each of the items should divide up the rem space proportionately and all occupy the same width.
 we applied flex: 2 to div 2 . In this case, div2 occupies more space.
 we can specify whole or numeric number;
 flex: number => divides only extra space that is available
+
+
+Finally understanding Flexbox flex-grow, flex-shrink and flex-basis
+flex:1 means flex-grow:1 and flex-shrink:1 and flex-basis
+
+default flex grow is 0
+default flex shrink is 1
+
+flex-grow means: when we have extra space how should we divide them amongst everybody on the same line.
+flex-shrink means: when is there no enough space
+flex-basis means: how wide or how height the element should be
+
+suppose if we have 2 div
+div1 has flex-grow has 10. then it means that div1 occupies 10times extra space that is remaining than div2.
+flex-shrink: if we specify this in any class, then this item shrinks that many times as mentioned.
+Shorthand notation => flex: grow shrink basis. eg: flex: 10 0 400px
+                   => flex: grow shrink eg: flex 10 0
+
+
 
