@@ -97,5 +97,11 @@ flex-shrink: if we specify this in any class, then this item shrinks that many t
 Shorthand notation => flex: grow shrink basis. eg: flex: 10 0 400px
                    => flex: grow shrink eg: flex 10 0
 
+How Flexbox flex basis and wrapping work together:
+If we specify the flex-basis, and if the sum of all items flex-basis is more than available width, then flex-shrink comes into picture.
+as the default flex-shrink is 1, all items width gets reduced by same width.
+Instead if we specify the flex-wrap: wrap; property , then if the basis width exceeds the the available width, then the items move to the next line.
+
+
 
 
